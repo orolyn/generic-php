@@ -1,0 +1,13 @@
+{
+    "minimum-stability": "dev",
+    "require": {
+        "nikic/php-parser": "^4.0.2",
+        "doctrine/cache": "^1.7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Orolyn\\GenericPHP\\": "src/",
+            "Orolyn\\Tests\\": "tests/"
+        }
+    }
+}
